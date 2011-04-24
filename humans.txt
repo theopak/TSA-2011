@@ -8,10 +8,14 @@
 	Twitter: theopak
 	Location: NJ, USA
 
-	Writers:	Emily Slate, Diego Cantillano
+	Writers: Emily Slate, Diego Cantillano
+
+	TSA Supervisor: Mr. Brian Drelick
+	Email: bdrelick@hpregional.org
 
 /* THANKS */
-	Names (& URL):
+	HTML5 Boilerplate, by Paul Irish and the community
+	http://html5boilerplate.com
 
 /* SITE */
 	Standards: HTML5, CSS3, PHP, MySQL
