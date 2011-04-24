@@ -1,7 +1,7 @@
-# High Point Regional HS - TSA `Webmaster` 2011
+# High Point Regional HS - TSA Webmaster 2011
 
 ## Information
-This project is High Point Regional High School's entry to the 2011 Technology Student Association `Webmaster` Competition. It placed 2nd at the NJ State Conference. Theo Pak will represent the project at the National Conference to be held in Dallas, TX.
+This project is High Point Regional High School's entry to the 2011 Technology Student Association Webmaster Competition. It placed 2nd at the NJ State Conference. Theo Pak will represent the project at the National Conference to be held in Dallas, TX.
 
 The Technology Student Association (TSA) is an international Career and Technical Student Organization composed of over 150 000 Middle School and High School Technology Education students. TSA provides students opportunities to compete, lead, and learn. The organization's motto is "Learning to live in a technical world".
 
@@ -12,10 +12,12 @@ I developed this solution to A) serve High Point TSA's needs, and to B) compete 
 
 Please feel free to study the way I used the excellent GNU software that already exists and to use my solution in portions or in its entirety. I ask only that you attribute the original authors of each component, and give back to the community with code or suggestions.
 
-## Contributors (see `humans.txt')
-Architect, Designer: Theo Pak
-Writers: Emily S, Diego C
-Supervisor: Mr. Brian Drelick
+## Contributors (see `humans.txt`)
+**Architect, Designer**: Theo Pak
+
+**Writers**: Emily S, Diego C
+
+**Supervisor**: Mr. Brian Drelick
 
 ## Competition Results
 TSA NJ State Conference 2011 (The College of New Jersey) - 2nd Place
