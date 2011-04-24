@@ -25,4 +25,4 @@ TSA NJ State Conference 2011 (The College of New Jersey) - 2nd Place
 * 30 MAR - written competition information published
 * 01 APR - URL submitted for TSA NJ State Conference (http://tsa.theopak.com)
 * 16 APR - TSA State Conference Held (project places 2nd to HTHS)
-* 24 APR - `README` and `humans.txt` expanded (Markdown)
+* 24 APR - `README.md` and `humans.txt` expanded (Markdown)
