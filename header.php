@@ -40,7 +40,7 @@
 		<header>
 				<h1><a href="<?php echo home_url('/'); ?>">High Point Regional High School</a></h1>
 				<nav>
-					<?php wp_nav_menu(array( 'container' => null, 'depth' => '2', 
+					<?php wp_nav_menu(array( 'container' => false, 'depth' => '2', 
 					'theme_location' => 'primary', 'exclude' => 0 ) ); ?>
 				</nav>
 				<!--<div id="tools">
