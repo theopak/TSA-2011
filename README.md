@@ -15,7 +15,7 @@ Please feel free to study the way I used the excellent GNU software that already
 ## Contributors (see `humans.txt`)
 **Architect, Designer**: Theo Pak
 
-**Writers**: Emily S, Diego C
+**Writers**: Emily S, Diego C, Mackenzie A
 
 **Supervisor**: Mr. Brian Drelick
 
@@ -28,3 +28,5 @@ TSA NJ State Conference 2011 (The College of New Jersey) - 2nd Place
 * 01 APR - URL submitted for TSA NJ State Conference (http://tsa.theopak.com)
 * 16 APR - TSA State Conference Held (project places 2nd to HTHS)
 * 24 APR - `README.md` and `humans.txt` expanded (Markdown)
+* 06 MAY - Communication opened with HPRHS Sophomore Mackenzie A. Welcome to the project!
+* 11 MAY - Began full conversion to WordPress theme. Added/modified/removed files as appropriate for a WP theme. Moved current pages to /dev/pages/ and entered their data into a temporary WP install. Will export pages when the theme is ready for production install.
