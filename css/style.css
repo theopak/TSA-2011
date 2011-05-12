@@ -94,6 +94,7 @@ h1, h2, h3, h4. h5 {
 }
 /* --- header ----------------------------------------------------------------------------------------------------------- */
 header {
+	position: relative;
 	margin: 0 auto 45px;
 	padding: 0 0 30px;
 	width: 100%;
@@ -121,11 +122,11 @@ header h1 a, header h1 a:visited {
 	text-decoration: none;
 	outline: none;
 }
-header h1 a:hover, header h1 a.current {
+header h1 a:hover {
 	border-color: #2daebf;
 	color: #FFF;
 }
-#container>header div {
+#container>header div#tools {
 	display: block;
 	margin: -30px auto 0;
 	min-width: 780px;
@@ -148,7 +149,7 @@ header form input#s {
 	line-height: 22px;
 	color: #666;
 }
-header form inpit#s:focus {
+header form input#s:focus {
 	color: #333;
 }
 /* --- navigation ------------------------------------------------------------------------------------------------------- */
@@ -190,7 +191,7 @@ header nav ul li {
 	margin: 0;
 	padding: 0;
 }
-header nav>ul>li:hover>a, header nav>ul>li.current>a {
+header nav>div>ul>li:hover>a, header nav>div>ul>li.current_page_ancestor>a {
 	background-color: #2daebf;
 	color: white;
 }
@@ -204,7 +205,7 @@ header nav ul ul {
 	border-top: 4px solid #2daebf;
 	visibility: hidden;
 }
-/*header nav ul li:hover ul,*/ header nav ul li.current ul {
+/*header nav ul li:hover ul,*/ header nav ul li.current_page_ancestor ul {
 	visibility: visible;
 }
 header nav ul ul li a {
@@ -212,18 +213,15 @@ header nav ul ul li a {
 	text-shadow: none;
 	color: #F0F0F0;
 }
-header nav ul ul li a:hover {
-	text-decoration: underline;
-}
-header nav ul ul li.current a:hover {
-	text-decoration: none;
-	color: #F0F0F0;
-}
-header nav ul ul li.current a {
+
+header nav ul ul li a:hover, header nav ul ul li.current_page_item a {
 	background-color: transparent;
 	border: none;
-	font-weight: bold;
 	color: white;
+}
+header nav ul ul li.current_page_item a {
+	font-weight: bold;
+	color: #F0F0F0;
 }
 /* --- main section ----------------------------------------------------------------------------------------------------- */
 #main {

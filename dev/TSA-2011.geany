@@ -9,13 +9,15 @@ indent_mode=2
 [project]
 name=TSA-2011
 base_path=/home/theo/git/TSA-2011
+description=
 
 [long line marker]
 long_line_behaviour=1
 long_line_column=124
 
 [files]
-current_page=1
+current_page=3
 FILE_NAME_0=0;None;0;16;1;1;1;/home/theo/git/TSA-2011/README;0;4
 FILE_NAME_1=197;None;0;16;1;1;1;/home/theo/git/TSA-2011/humans.txt;0;4
-FILE_NAME_2=0;CSS;0;16;1;1;1;/home/theo/git/TSA-2011/css/style.css;0;4
+FILE_NAME_2=7319;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/tech-department_course-catalog.php;0;4
+FILE_NAME_3=0;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/tech-department_faculty.php;0;4

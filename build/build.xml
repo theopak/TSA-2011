@@ -660,9 +660,10 @@
             <arg line="--remove-quotes"/>
             <arg line="--compress-js"/>
             <arg line="--compress-css"/>
+            <arg line="--preserve-php"/>
             <srcfile/>
             <arg value="-o"/>
-            <mapper type="glob" from="*.html" to="../${dir.publish}/*.html"/>
+            <mapper type="glob" from="*.php" to="../${dir.publish}/*.php"/>
             <targetfile/>
         </apply>
     </target>

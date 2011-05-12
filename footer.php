@@ -10,7 +10,7 @@
 					<abbr class="country-name hidden" title="United States of America">USA</abbr>
 				</div>
 				<span class="tel">(973) 875-3101</span>
-				<p>website &copy; 2011 Theo Pak and content property of HPRHS and students, except where otherwise indicated. <a href="css/style.css">view source</a> for documentation.</p>
+				<p>website &copy; 2011 Theo Pak and content property of HPRHS and students, except where otherwise indicated. <a href="https://github.com/theopak/TSA-2011">view source</a> for detailed documentation.</p>
 			</header>
 			<aside>
 				
@@ -58,26 +58,24 @@
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
 	<script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
 
-
 	<!-- scripts concatenated and minified via ant build script-->
-	<script src="/js/plugins.js"></script>
-	<script src="/js/script.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/plugins.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/script.js"></script>
 	<!-- end scripts-->
-
 
 	<!--[if lt IE 7 ]>
 		<script src="/js/libs/dd_belatedpng.js"></script>
 		<script>DD_belatedPNG.fix("img, .png_bg");</script>
 	<![endif]-->
 
-
-
 	<script>
-		var _gaq=[["_setAccount","UA-10935216-3"],["_trackPageview"]];
-		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-		g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-		s.parentNode.insertBefore(g,s)}(document,"script"));
+//		var _gaq=[["_setAccount","UA-10935216-3"],["_trackPageview"]];
+//		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+//		g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+//		s.parentNode.insertBefore(g,s)}(document,"script"));
 	</script>
+
+	<?php wp_footer(); ?>
 
 </body>
 </html>
