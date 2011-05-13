@@ -13,7 +13,7 @@ I developed this solution to A) serve High Point TSA's needs, and to B) compete 
 Please feel free to study the way I used the excellent GNU software that already exists and to use my solution in portions or in its entirety. I ask only that you attribute the original authors of each component, and give back to the community with code or suggestions.
 
 ## Contributors (see `humans.txt`)
-**Architect, Designer**: Theo Pak
+**Lead Designer**: Theo Pak
 
 **Writers**: Emily S, Diego C, Mackenzie A
 
@@ -27,6 +27,7 @@ TSA NJ State Conference 2011 (The College of New Jersey) - 2nd Place
 * 30 MAR - written competition information published
 * 01 APR - URL submitted for TSA NJ State Conference (http://tsa.theopak.com)
 * 16 APR - TSA State Conference Held (project places 2nd to HTHS)
-* 24 APR - `README.md` and `humans.txt` expanded (Markdown)
+* 24 APR - `README.md` and `humans.txt` expanded
 * 06 MAY - Communication opened with HPRHS Sophomore Mackenzie A. Welcome to the project!
 * 11 MAY - Began full conversion to WordPress theme. Added/modified/removed files as appropriate for a WP theme. Moved current pages to /dev/pages/ and entered their data into a temporary WP install. Will export pages when the theme is ready for production install.
+* 12 MAY - Mackenzie A - expanded Course Catalog to include level 2+ classes. Theo Pak - more content added to temp WP install, smooth scrolling added (jQuery), minor bug fixes.

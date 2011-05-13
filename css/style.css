@@ -191,7 +191,7 @@ header nav ul li {
 	margin: 0;
 	padding: 0;
 }
-header nav>div>ul>li:hover>a, header nav>div>ul>li.current_page_ancestor>a {
+header nav>div>ul>li:hover>a, header nav>div>ul>li.current_page_item>a, header nav>div>ul>li.current_page_ancestor>a {
 	background-color: #2daebf;
 	color: white;
 }
@@ -203,10 +203,10 @@ header nav ul ul {
 	padding: 0;
 	background-color: #444;
 	border-top: 4px solid #2daebf;
-	visibility: hidden;
+	display: none;
 }
 /*header nav ul li:hover ul,*/ header nav ul li.current_page_ancestor ul {
-	visibility: visible;
+	display: block;
 }
 header nav ul ul li a {
 	font: normal 16px/22px "MS Trebuchet",Arial,sans;

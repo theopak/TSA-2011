@@ -1,3 +1,6 @@
+# theopak
+*.geany
+
 # Numerous always-ignore extensions
 *.diff
 *.err

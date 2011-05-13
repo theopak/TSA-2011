@@ -9,6 +9,10 @@
 
 	<title><?php
 		wp_title( '|', true, 'right' );
+		if($post->post_parent) {
+			$parent_title = get_the_title($post->post_parent);
+			echo $parent_title." &laquo; ";
+		}
 		bloginfo('name');
 	?></title>
 	<meta name="description" content="<?php
