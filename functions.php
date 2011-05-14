@@ -10,6 +10,10 @@ if(function_exists('register_sidebar')) {
 	));
 }
 
+if(function_exists('register_nav_menu')) {
+	register_nav_menu('footer', 'Sitemap displayed at the bottom of every page');
+}
+
 add_custom_background();
 
 //add_theme_support("post-thumbnails");

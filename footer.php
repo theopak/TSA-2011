@@ -1,55 +1,30 @@
 
 		<footer>
-			<header class="vcard">
+			<section class="vcard">
 				<h1 class="fn">High Point Regional</h1>
-				<div class="addr">
+				<div class="addr" href="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=High+Point+High+School,+299+Pidgeon+Hill+Road,+Sussex,+NJ+07461-2733&amp;aq=1&amp;sll=41.200647,-74.645088&amp;sspn=0.003285,0.006968&amp;g=41.200663,-74.645072&amp;ie=UTF8&amp;hq=High+Point+High+School,+299+Pidgeon+Hill+Road,+Sussex,+NJ+07461-2733&amp;hnear=High+Point+High+School,+299+Pidgeon+Hill+Rd,+Sussex,+New+Jersey+07461-2733&amp;ll=41.199759,-74.64386&amp;spn=0.003269,0.006968&amp;t=h&amp;z=18">
 					<span class="street-address">299 Pidgeon Hill Rd</span> 
 					<span class="locality">Sussex</span>, 
-					<abbr class="region" title="New Jersey">NJ</abbr> 
+					<span class="region">NJ</span> 
 					<span class="postal-code">07461</span> 
 					<abbr class="country-name hidden" title="United States of America">USA</abbr>
 				</div>
 				<span class="tel">(973) 875-3101</span>
-				<p>website &copy; 2011 Theo Pak and content property of HPRHS and students, except where otherwise indicated. <a href="https://github.com/theopak/TSA-2011">view source</a> for detailed documentation.</p>
-			</header>
+				<p>content &copy; 2011 <a href="http://theopak.com">Theo Pak</a> and HPRHS, except where otherwise indicated. design and code GNU. <a href="https://github.com/theopak/TSA-2011">view source</a> for detailed documentation.</p>
+			</section>
 			<aside>
-				
 				<a class="button" onclick="scroll(0,0)">Back to Top</a>
 			</aside>
-			<ul id="sitemap" class="clearfix">
-				<li>
-					<a href="tsa-chapter_executive-board.php">TSA Chapter</a>
-					<ul>
-						<li><a href="tsa-chapter_executive-board.php">Executive Board</a></li>
-						<li><a href="tsa-chapter_accolades.php">Accolades</a></li>
-						<!--<li><a href="tsa-chapter.php#3">Photo Gallery</a></li>-->
-					</ul>
-				</li>
-				<li>
-					<a href="tech-department_overview.php">Tech Department</a>
-					<ul>
-						<li><a href="tech-department_overview.php">Overview</a></li>
-						<li><a href="tech-department_course-catalog.php">Course Catalog</a></li>
-						<li><a href="tech-department_faculty.php">Faculty</a></li>
-						<li><a href="tech-department_recognition.php">Recognition</a></lI>
-					</ul>
-				<li>
-					<a href="webmaster-2011_design-brief.php">Webmaster 2011</a>
-					<ul>
-						<li><a href="webmaster-2011_design-brief.php">Design Brief</a></li>
-						<li><a href="webmaster-2011_types-of-visual-impairment.php">Types of Visual Impairment</a></li>
-						<li><a href="webmaster-2011_websites.php">Technologies Used</a></li>
-					</ul>
-				</li>
-				<!--<li>
-					<a href="about_.php">About this Site</a>
-					<ul>
-						<li><a href="about_.php">Team Bio</a></li>
-						<li><a href="about_.php">Design Philosophy</a></li>
-						<li><a href="about_.php">Citations</a></li>
-					</ul>
-				</li>-->
-			</ul>
+			<?php
+				wp_nav_menu(array(
+					'theme_location'	=>	'footer',
+					'container'			=>	false,
+					'menu_class'		=>	'clearfix',
+					'menu_id'			=>	'sitemap',
+					'depth'				=>	2,
+					'fallback_cb'		=>	'return'
+				));
+			?>
 			<div id="logo"></div>
 		</footer>
 	</div> <!-- end #container -->

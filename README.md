@@ -31,3 +31,4 @@ TSA NJ State Conference 2011 (The College of New Jersey) - 2nd Place
 * 06 MAY - Communication opened with HPRHS Sophomore Mackenzie A. Welcome to the project!
 * 11 MAY - Began full conversion to WordPress theme. Added/modified/removed files as appropriate for a WP theme. Moved current pages to /dev/pages/ and entered their data into a temporary WP install. Will export pages when the theme is ready for production install.
 * 12 MAY - Mackenzie A - expanded Course Catalog to include level 2+ classes. Theo Pak - more content added to temp WP install, smooth scrolling added (jQuery), minor bug fixes.
+* 13 MAY - Pics of the CAD and Biotech rooms taken after school, 360-panorama of Tech room created (will convert to quicktime interactive panorama at a later time with more software - a flat jpeg is good enough for now). some content from HP TSA joomla blog added to WP image. more content added. aesthetic changes.

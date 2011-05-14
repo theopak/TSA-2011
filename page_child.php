@@ -17,11 +17,10 @@ get_header();
 //aside#feat
 $feat = get_post($post->post_parent);
 echo "		<aside class=\"feat\">\n		".
-	//"			<h2 class=\"ir\" style=\"background: url(img/tsa.png) no-repeat center top;\">High Point TSA</h2>\n".
+	"			<h2>".$post->post_title."</h2>\n".
 	$feat->post_content."\n		</aside>\n";
 
-if(have_posts()) {
-	while (have_posts()) { the_post();
+while(have_posts()) { the_post();
 		?>
 		<div id="main" role="main">
 			<section>
@@ -30,9 +29,6 @@ if(have_posts()) {
 			</section>
 		</div><!-- end #main -->
 		<?php
-	}
-} else {
-	_e('Sorry, you have encountered an error.');
 }
 
 get_footer();
