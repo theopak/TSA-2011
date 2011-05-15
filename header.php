@@ -44,8 +44,12 @@
 		<header>
 				<h1><a href="<?php echo home_url('/'); ?>">High Point Regional High School</a></h1>
 				<nav>
-					<?php wp_nav_menu(array( 'container' => false, 'depth' => '2', 
-					'theme_location' => 'primary', 'exclude' => 0 ) ); ?>
+					<?php wp_nav_menu(array(
+						'theme_location'	=>	'header',
+						'container'			=>	false,
+						'depth'				=>	2,
+						'fallback_cb'		=>	'return'
+					)); ?>
 				</nav>
 				<!--<div id="tools">
 					<form role="search" method="get" action="SELF_URL">

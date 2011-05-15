@@ -13,7 +13,7 @@ I developed this solution to A) serve High Point TSA's needs, and to B) compete 
 Please feel free to study the way I used the excellent GNU software that already exists and to use my solution in portions or in its entirety. I ask only that you attribute the original authors of each component, and give back to the community with code or suggestions.
 
 ## Contributors (see `humans.txt`)
-**Lead Designer**: Theo Pak
+**Lead Developer**: Theo Pak
 
 **Writers**: Emily S, Diego C, Mackenzie A
 
@@ -32,3 +32,4 @@ TSA NJ State Conference 2011 (The College of New Jersey) - 2nd Place
 * 11 MAY - Began full conversion to WordPress theme. Added/modified/removed files as appropriate for a WP theme. Moved current pages to /dev/pages/ and entered their data into a temporary WP install. Will export pages when the theme is ready for production install.
 * 12 MAY - Mackenzie A - expanded Course Catalog to include level 2+ classes. Theo Pak - more content added to temp WP install, smooth scrolling added (jQuery), minor bug fixes.
 * 13 MAY - Pics of the CAD and Biotech rooms taken after school, 360-panorama of Tech room created (will convert to quicktime interactive panorama at a later time with more software - a flat jpeg is good enough for now). some content from HP TSA joomla blog added to WP image. more content added. aesthetic changes.
+* 14 MAY - Set up WordPress on site (http://tsa.theopak.com). This will be the URL of the final submission. Imported existing db, now using working copy. sidebar added. various aesthetic and funcitonality improvements.

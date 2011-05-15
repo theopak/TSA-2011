@@ -22,7 +22,7 @@ echo "		<aside class=\"feat\">\n		".
 
 while(have_posts()) { the_post();
 		?>
-		<div id="main" role="main">
+		<div id="main" class="clearfix" role="main">
 			<section>
 				<?php the_content(); ?> 
 				<?php edit_post_link('(edit)', '<small>', '</small>'); ?>

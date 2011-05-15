@@ -40,4 +40,12 @@ $(document).ready(function(){
 //		$('nav li.current_page_ancestor ul').slideDown(100);
 //		return;
 //	});
+
+	//make slimbox 2 work with all images
+	$('a[rel="lightbox"]').each(function(){
+		$(this).attr('title', $(this).children(':first-child').attr('alt')); //each a[title] = a>img[alt]
+	});
+
+	//enable smoothScroll on all internal links
+	$('html').smoothScroll();
 });

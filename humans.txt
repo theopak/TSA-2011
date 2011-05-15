@@ -3,14 +3,15 @@
 
 
 /* TEAM */
-	Architect: Theo Pak
+	Lead Developer: Theo Pak
 	Site: http://theopak.com
 	Twitter: theopak
 	Location: NJ, USA
 
-	Writers: Emily Slate, Diego Cantillano
+	Writers: Mackenzie A, Diego C, Emily S
 
-	TSA Supervisor: Mr. Brian Drelick
+	Technology Student Association
+	School Supervisor: Mr. Brian Drelick
 	Email: bdrelick@hpregional.org
 
 
@@ -22,7 +23,7 @@
 /* SITE */
 	Standards: HTML5, CSS3, PHP, MySQL
 	Components: Modernizr, jQuery
-	Software: Google Analytics
+	Software: Google Analytics, Typekit, WordPress
 	Source: https://github.com/theopak/TSA-2011
 
 

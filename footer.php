@@ -31,11 +31,15 @@
 
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.js"></script>
-	<script>window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")</script>
+	<script type="text/javascript" src="http://use.typekit.com/qqt1yab.js"></script>
+	<script>
+		window.jQuery || document.write("<script src='js/libs/jquery-1.5.1.min.js'>\x3C/script>")
+		try{Typekit.load();}catch(e){} //enable Typekit
+	</script>
 
 	<!-- scripts concatenated and minified via ant build script-->
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/plugins.js"></script>
-	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/script.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/scripts-0014.min.js"></script>
 	<!-- end scripts-->
 
 	<!--[if lt IE 7 ]>

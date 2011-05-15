@@ -6,6 +6,8 @@
  * camendesign.com/design/, praegnanz.de/weblog/htmlcssjs-kickstart).                                                     *
  * ====================================================================================================================== */
 
+/* Import Extra Stylesheets (buildscript mixes this down automatically) ================================================= */
+@import url('slimbox2.css');
 
 /* html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline) ====================================== *
  * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark | html5doctor.com/html-5-reset-stylesheet/                     */
@@ -191,7 +193,7 @@ header nav ul li {
 	margin: 0;
 	padding: 0;
 }
-header nav>div>ul>li:hover>a, header nav>div>ul>li.current_page_item>a, header nav>div>ul>li.current_page_ancestor>a {
+header nav>ul>li:hover>a, header nav>ul>li.current_page_item>a, header nav>ul>li.current_page_ancestor>a {
 	background-color: #2daebf;
 	color: white;
 }
@@ -205,7 +207,7 @@ header nav ul ul {
 	border-top: 4px solid #2daebf;
 	display: none;
 }
-/*header nav ul li:hover ul,*/ header nav ul li.current_page_ancestor ul {
+/*header nav ul li:hover ul,*/ header nav ul li.current_page_ancestor ul, header nav ul li.current-menu-item ul {
 	display: block;
 }
 header nav ul ul li a {
@@ -239,7 +241,7 @@ header nav ul ul li.current_page_item a {
 }
 section {
 	position: relative;
-	margin: 15px 10px;
+	margin: 10px 10px;
 	padding: 0;
 }
 article {
@@ -265,20 +267,33 @@ section h2 {
 }
 section h3 {
 	display: block;
-	margin: 1em 0 .2em;
-	padding: 7px 10px;
+	margin: 2em -10px .4em;
+	padding: 7px 10px 6px;
 	background-color: #EDEDED;
 	border-bottom: 1px groove white;
+	font: 1.2em/1em Georgia;
+	font-effect: engraved;
+	text-shadow: #eee 0 -1px 0;
 	text-rendering: optimizelegibility;
 }
-section h3 small {
+section h3:first-of-type {
+	margin-top: -10px;
+}
+section h4 {
+	margin: 1.5em 0 0;
+	padding: .5em 0 1em;
+	border-top: 3px solid #DDD;
+	font: bold 1.2em/1.2em Georgia;
+}
+section h4:first-of-type {
+	padding-top: 0;
+	border-top: none;
+}
+section h3 small, section h4 small {
 	font-style: italic;
 	font-variant: small-caps;
 	font-weight: lighter;
 	color: #999;
-}
-section h4 {
-	margin: .25em 0;
 }
 section a {
 	background-color: transparent;
@@ -300,12 +315,20 @@ section img {
 img.frame {
 	float: right;
 	display: block;
-	margin: 4px;
+	margin: 0 0 0 6px;
 	padding: 3px;
 	border: 1px solid #ccc;
 	background-color: #E4E4E4;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
+}
+img.frame.left {
+	float: left;
+	margin: -0 6px 0 0;
+}
+img.frame.center {
+	float: none;
+	margin: 0 auto;
 }
 .pan {
 	display: block;
@@ -329,23 +352,21 @@ section dl {
 	padding: 0;
 }
 section dl dt {
-	clear: left;
-	float: left;
 	display: block;
-	margin: 0 0 .25em;
-	width: 150px;
-	font-weight: bold;
-	text-align: right;
+	margin: 1em 0 0;
+	padding: 0;
+	font: italic 1.1em/1em Georgia;
 }
 section dl dd {
-	display: block;
-	margin: 0 0 .25em 153px;
-	padding: 0 0 0 3px;
-	border-left: 1px solid #666;
+	margin: 0 0;
+	padding: 3px 0;
 }
 section cite {
+	display: block;
+	margin: 0;
+	padding: 0 0 .25em 2.5em;
 	font-style: italic;
-	text-indent: 2.5em hanging;
+	text-indent: -2.5em;
 	color: #666;
 }
 section cite a {
@@ -370,6 +391,40 @@ section blockquote cite:before {
 	//content: "&#8212;&nbsp;";
 	content: "- ";
 }
+/* --- sidebar ---------------------------------------------------------------------------------------------------------- */
+#sidebar {
+	display: block;
+	float: right;
+	margin: 0 0 0 10px;
+	padding: 15px 10px 15px;
+	width: 219px;
+	border-left: 1px groove white;
+}
+#sidebar>ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#sidebar .widget {
+	margin: 0 0 2em;
+	padding: 0;
+}
+#sidebar .widget .widgettitle {
+	margin: 0 0 .2em;
+	padding: 0;
+	font: 1.1em/1em Georgia;
+}
+#sidebar ul ul {
+	margin: 0;
+	padding: 0;
+	list-style: circle inside;
+}
+#sidebar ul ul li a {
+	text-decoration: none;
+}
+#sidebar ul ul li a:hover {
+	text-decoration: underline;
+}
 /* --- featured --------------------------------------------------------------------------------------------------------- */
 aside.feat {
 	position: relative;
@@ -379,7 +434,9 @@ aside.feat {
 	/*max-width: 960px;
 	min-with: 780px;
 	width: 100%;*/
-	width: 720px;
+	min-width: 720px;
+	max-width: 850px;
+	width: 80%;
 	text-rendering: optimizelegibility;
 }
 aside.feat h2 {
@@ -393,8 +450,9 @@ aside.feat h2 {
 	color: #333;
 }
 aside.feat h2.ir {
-	font: 4.2em/1.3em 'Arial Black';
+	margin: 1em 0 0;
 	border-bottom: 1px groove white;
+	font: 4.2em/1.3em 'Arial Black';
 }
 aside.feat p {
 	display: block;

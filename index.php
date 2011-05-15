@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-		<div id="main" role="main">
+		<div id="main" class="clearfix" role="main">
 			<section>
 <?php
 
