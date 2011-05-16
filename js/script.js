@@ -23,23 +23,12 @@ $(document).ready(function() {
  */
 
 $(document).ready(function(){
+
 	//slideToggle for 'Course Catalog' page
 	$('ul.info li p').hide() //set it initially hidden
 	$('ul.info li').click(function(){
 		$(this).find('p').slideToggle(200);
 	});
-
-	//navigation dropdowns
-//	$('nav>div>ul>li>a').mouseenter(function(){
-//		$('nav li.current_page_ancestor ul').slideUp(100);
-//		$('nav li:hover ul').slideDown(100);
-//		return;
-//	});
-//	$('nav>div>ul>li>a').mouseleave(function(){
-//		$('nav li:hover ul').slideUp(100);
-//		$('nav li.current_page_ancestor ul').slideDown(100);
-//		return;
-//	});
 
 	//make slimbox 2 work with all images
 	$('a[rel="lightbox"]').each(function(){
@@ -47,5 +36,25 @@ $(document).ready(function(){
 	});
 
 	//enable smoothScroll on all internal links
-	$('html').smoothScroll();
+	$('a').smoothScroll();
+
+	//animated navigation horizontal dropdowns
+	function navOver(){
+		if( $(this).hasClass("current_page_ancestor") ) { return; } //avoid animating the active page
+		$('nav li.current_page_ancestor ul').hide();
+		$('nav li:hover ul').slideDown(100);
+	}
+	function navOut(){
+		if( $(this).hasClass("current_page_ancestor") ) { return; } //avoid animating the active page
+		$(this).children('ul.sub-menu').hide();
+		$('nav li.current_page_ancestor ul').slideDown(100);
+	}
+	$(document).ready(function(){
+		$('nav>ul>li').hoverIntent({
+			over: navOver, //onMouseOver callback function
+			timout: 1000, //(optional) time between onMouseOver and onMouseOut
+			out: navOut //onMouseOut callback function
+		});
+	});
+
 });

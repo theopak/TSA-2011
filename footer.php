@@ -13,7 +13,7 @@
 				<p>content &copy; 2011 <a href="http://theopak.com">Theo Pak</a> and HPRHS, except where otherwise indicated. design and code GNU. <a href="https://github.com/theopak/TSA-2011">view source</a> for detailed documentation.</p>
 			</section>
 			<aside>
-				<a class="button" onclick="scroll(0,0)">Back to Top</a>
+				<a class="button" onclick="$.smoothScroll(0)">Back to Top</a>
 			</aside>
 			<?php
 				wp_nav_menu(array(
@@ -39,7 +39,7 @@
 
 	<!-- scripts concatenated and minified via ant build script-->
 	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/plugins.js"></script>
-	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/scripts-0014.min.js"></script>
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/scripts-0019.min.js"></script>
 	<!-- end scripts-->
 
 	<!--[if lt IE 7 ]>
@@ -48,10 +48,10 @@
 	<![endif]-->
 
 	<script>
-//		var _gaq=[["_setAccount","UA-10935216-3"],["_trackPageview"]];
-//		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
-//		g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
-//		s.parentNode.insertBefore(g,s)}(document,"script"));
+		var _gaq=[["_setAccount","UA-10935216-3"],["_trackPageview"]];
+		(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
+		g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
+		s.parentNode.insertBefore(g,s)}(document,"script"));
 	</script>
 
 	<?php wp_footer(); ?>

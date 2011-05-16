@@ -203,14 +203,16 @@ header nav ul ul {
 	left: 0;
 	margin: 0;
 	padding: 0;
+	height: 22px;
 	background-color: #444;
 	border-top: 4px solid #2daebf;
 	display: none;
 }
-/*header nav ul li:hover ul,*/ header nav ul li.current_page_ancestor ul, header nav ul li.current-menu-item ul {
+header nav ul li.current_page_ancestor ul, header nav ul li.current-menu-item ul {
 	display: block;
 }
-header nav ul ul li a {
+header nav ul ul li a, header nav ul ul li a:visited {
+	height: 27px;
 	font: normal 16px/22px "MS Trebuchet",Arial,sans;
 	text-shadow: none;
 	color: #F0F0F0;
@@ -219,9 +221,11 @@ header nav ul ul li a {
 header nav ul ul li a:hover, header nav ul ul li.current_page_item a {
 	background-color: transparent;
 	border: none;
-	color: white;
+	font-weight: bold;
+	color: #F0F0F0;
 }
 header nav ul ul li.current_page_item a {
+	background: transparent url(../img/arrow.png) no-repeat center 16px;
 	font-weight: bold;
 	color: #F0F0F0;
 }
@@ -240,7 +244,7 @@ header nav ul ul li.current_page_item a {
 	-webkit-animation: 'fadein' 1.5s;
 }
 section {
-	position: relative;
+	/*position: relative;*/
 	margin: 10px 10px;
 	padding: 0;
 }
@@ -271,10 +275,11 @@ section h3 {
 	padding: 7px 10px 6px;
 	background-color: #EDEDED;
 	border-bottom: 1px groove white;
-	font: 1.2em/1em Georgia;
+	font: 1.25em/1em Georgia;
 	font-effect: engraved;
 	text-shadow: #eee 0 -1px 0;
 	text-rendering: optimizelegibility;
+	color: #333;
 }
 section h3:first-of-type {
 	margin-top: -10px;
@@ -284,6 +289,7 @@ section h4 {
 	padding: .5em 0 1em;
 	border-top: 3px solid #DDD;
 	font: bold 1.2em/1.2em Georgia;
+	color: #333;
 }
 section h4:first-of-type {
 	padding-top: 0;
@@ -305,6 +311,22 @@ section a:hover {
 section p {
 	margin: .1em 0 1em;
 	padding: 0;
+}
+section p em {
+	font-style: italic;
+	font-weight: normal;
+}
+section small {
+	display: block;
+	margin: 0 0 1em;
+	font-style: italic;
+	font-weight: lighter;
+	color: #666;
+}
+section small em, section small time {
+	font-style: normal;
+	text-transform: uppercase;
+	color: #666;
 }
 section img {
 	float: left;
@@ -372,11 +394,13 @@ section cite {
 section cite a {
 	color: #666;
 	text-decoration: none;
+	border-bottom: 1px dotted #999;
 }
 section cite a:hover {
 	color: #333;
 	background-color: transparent;
-	text-decoration: underline;
+	text-decoration: none;
+	border-bottom: 1px solid #666;
 }
 section blockquote {
 	display: block;
@@ -387,9 +411,37 @@ section blockquote {
 section blockquote cite {
 	display: block;
 }
+section q:before {
+	content: "\"";
+}
+section q:after {
+	content: "\"";
+}
 section blockquote cite:before {
 	//content: "&#8212;&nbsp;";
 	content: "- ";
+}
+section div.left, section div.right {
+	display: block;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+}
+section div.right {
+	float: right;
+}
+section div.left p, section div.left h4, section div.right p, section div.right h4 {
+	margin-left: 0;
+	margin-right: 10px;
+}
+section div.right p, section div.right h4 {
+	margin-left: 10px;
+	margin-right: 0;
+}
+section div.left h4, section div.right h4 {
+	margin-top: 10px;
+	text-align: center;
 }
 /* --- sidebar ---------------------------------------------------------------------------------------------------------- */
 #sidebar {
@@ -412,7 +464,7 @@ section blockquote cite:before {
 #sidebar .widget .widgettitle {
 	margin: 0 0 .2em;
 	padding: 0;
-	font: 1.1em/1em Georgia;
+	font: 1.2em/1em Georgia;
 }
 #sidebar ul ul {
 	margin: 0;
@@ -443,7 +495,7 @@ aside.feat h2 {
 	display: block;
 	margin: 1.5em 0 0;
 	padding: 0;
-	font: 3.5em/1.2em 'Arial Black';
+	font: bold 3.5em/1.2em 'Arial Black';
 	text-align: center;
 	font-effect: engraved;
 	text-shadow: #eee 0 1px 0;

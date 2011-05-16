@@ -1,5 +1,14 @@
 # www.robotstxt.org/
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
+# Why are you reading this? YOUR A ROBOT I KNEW IT. Get out. And stay away from humans.txt, you bolts-for-brains.
 
 User-agent: *
-
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /wp-includes/
+Disallow: /2010/
+Disallow: /2011/
+Disallow: /wp-*.php
+Disallow: /google29729e239d618980.html
+Disallow: xmlrpc.php
+Disallow: humans.txt
