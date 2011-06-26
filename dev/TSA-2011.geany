@@ -17,14 +17,16 @@ long_line_column=124
 
 [files]
 current_page=0
-FILE_NAME_0=3273;None;0;16;1;1;1;/home/theo/git/TSA-2011/README.md;0;4
-FILE_NAME_1=516;None;0;16;1;1;1;/home/theo/git/TSA-2011/humans.txt;0;4
-FILE_NAME_2=73;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/functions.php;0;4
-FILE_NAME_3=11558;CSS;0;16;1;1;1;/home/theo/git/TSA-2011/css/style.css;0;4
-FILE_NAME_4=1460;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/header.php;0;4
-FILE_NAME_5=1858;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/footer.php;0;4
-FILE_NAME_6=57;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/index.php;0;4
+FILE_NAME_0=1899;None;0;16;1;1;1;/home/theo/git/TSA-2011/README.md;0;4
+FILE_NAME_1=244;None;0;16;1;1;1;/home/theo/git/TSA-2011/humans.txt;0;4
+FILE_NAME_2=338;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/functions.php;0;4
+FILE_NAME_3=11284;CSS;0;16;1;1;1;/home/theo/git/TSA-2011/css/style.css;0;4
+FILE_NAME_4=1361;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/header.php;0;4
+FILE_NAME_5=936;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/footer.php;0;4
+FILE_NAME_6=680;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/index.php;0;4
 FILE_NAME_7=511;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/page_child.php;0;4
-FILE_NAME_8=418;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/page_sidebar.php;0;4
-FILE_NAME_9=381;PHP;1;16;1;1;1;/home/theo/git/monument/page.php;0;4
-FILE_NAME_10=1482;Javascript;0;16;1;1;1;/home/theo/git/TSA-2011/js/script.js;0;4
+FILE_NAME_8=647;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/page_sidebar.php;0;4
+FILE_NAME_9=301;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/single.php;0;4
+FILE_NAME_10=1197;Javascript;0;16;1;1;1;/home/theo/git/TSA-2011/js/script.js;0;4
+FILE_NAME_11=0;HTML;0;16;1;1;1;/home/theo/git/TSA-2011/dev/scratchpad.html;0;4
+FILE_NAME_12=2124;PHP;0;16;1;1;1;/home/theo/git/TSA-2011/publish/footer.php;0;4
