@@ -12,3 +12,5 @@ Disallow: /wp-*.php
 Disallow: /google29729e239d618980.html
 Disallow: xmlrpc.php
 Disallow: humans.txt
+Disallow: GPL-LICENSE.txt
+Disallow: MIT-LICENSE.txt

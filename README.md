@@ -1,16 +1,18 @@
-# High Point Regional HS - TSA Webmaster 2011
+# High Point Regional HS - TSA Webmaster Challenge 2010-2011
 
 ## Information
-This project is High Point Regional High School's entry to the 2011 Technology Student Association Webmaster Competition. It placed 2nd at the NJ State Conference. Theo Pak will represent the project at the National Conference to be held in Dallas, TX.
+This project is High Point Regional High School's entry to the 2011 Technology Student Association 'Webmaster' Competition (formally known as 'Cyberspace Pursuit'). It placed 2nd at the NJ State Conference and 4th at the National Conference. This project is the first entry in the TSA Webmaster Competition to ever be open-source (license details below).
 
 The Technology Student Association (TSA) is an international Career and Technical Student Organization composed of over 150 000 Middle School and High School Technology Education students. TSA provides students opportunities to compete, lead, and learn. The organization's motto is "Learning to live in a technical world".
 
 High Point Regional High School is a public high school located in rural Sussex County, NJ where approximately 1 200 students attend from the five municipalities of Branchville, Frankford, Lafayette, Sussex, and Wantage.
 
-## Why Open Source? - message from the project leader
-I developed this solution to A) serve High Point TSA's needs, and to B) compete in the national TSA competition. I feel that my final solution is a useful and innovative approach to giving TSA chapters an informative website. I used F/OSS whenever possible, and am proud to contribute to the community. Though it may be counter-intuitive to the competitive nature of TSA, I hope that my solution will be refined by other chapters and future students.
+## License
+Everything I wrote for this project is free and open-source under the MIT and GPLv2 licenses; I encourage other TSA chapters to use this framework in it's entirety for their own website or to build off this framework as a base for their own entry to the TSA 'Webmaster' Competition.
 
-Please feel free to study the way I used the excellent GNU software that already exists and to use my solution in portions or in its entirety. I ask only that you attribute the original authors of each component, and give back to the community with code or suggestions.
+If you do use this code, please consider forking [the original project](https://github.com/theopak/TSA-2011) on Github to improve the framework for others!
+
+F/OSS was used whenever possible in the development of this project. Some components, including jQuery and the HTML5 Boilerplate project, are used under MIT/GPL license as documented.
 
 ## Contributors (see `humans.txt`)
 **Lead Developer**: Theo Pak
@@ -20,8 +22,8 @@ Please feel free to study the way I used the excellent GNU software that already
 **Supervisor**: Mr. Brian Drelick
 
 ## Competition Results
-* TSA NJ State Conference 2011 (The College of New Jersey) - 2nd Place _(83 of 90 points)_
-* TSA National Conference 2011 (Dallas, TX) - 4th Place
+* **2nd place** - TSA NJ State Conference 2011 (The College of New Jersey) - _(83 of 90 points)_
+* **4th place** - TSA National Conference 2011 (Dallas, TX)
 
 ## Changelog
 * 29 MAR - git repo opened
@@ -36,3 +38,4 @@ Please feel free to study the way I used the excellent GNU software that already
 * 14 MAY - Set up WordPress on site (http://tsa.theopak.com). This will be the URL of the final submission. Imported existing db, now using working copy. sidebar added. various aesthetic and funcitonality improvements. smoothScroll, slimbox2, and typekit added.
 * 15 MAY - Content added. js fixed and cleaned. aesthetic improvements. incorperated Diego's contributions. added a new page to the 'Webmaster Challenge 2011' section. built, re-uploaded to server, and submitted for competition.
 * 26 JUN - Final product was judged in TSA National Conference. Printed presentation added to repo.
+* 05 AUG - Open-source licensing clarified, updated jQuery to 1.6.2, updated Modernizr to 2.0.6, updated buildscript and dependencies to latest and modified them for PHP with WordPress, updated various aspects of HTML5boilerplate to latest. Wordpress theme version bumped to 2.1.

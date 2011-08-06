@@ -1,7 +1,7 @@
 <!doctype html>
-<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>		<html class="no-js ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>		<html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if lt IE 7 ]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7 ]>		<html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8 ]>		<html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>"><!-- utf-8 -->
@@ -20,19 +20,17 @@
 		echo " - ";
 		bloginfo('description');
 	?>">
-	<meta name="geo.country" content="US">
 	<meta name="geo.region" content="US-NJ">
-	<meta name="rating" content="general">
 	<meta name="author" content="Theo Pak">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
 	<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('stylesheet_directory'); ?>/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_directory'); ?>/css/style.css?v=2">
-	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/libs/modernizr-1.7.min.js"></script>
+
+	<link rel="stylesheet" href="css/style.css?v=2">
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/libs/modernizr-2.0.6.min.js"></script>
 
 	<?php wp_head(); ?>
 

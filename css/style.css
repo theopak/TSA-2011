@@ -7,7 +7,7 @@
  * ====================================================================================================================== */
 
 /* Import Extra Stylesheets (buildscript mixes this down automatically) ================================================= */
-@import url('slimbox2.css');
+/* @import url('slimbox2.css');  if this is imported here, the build script will still write the stylesheet also */
 
 /* html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline) ====================================== *
  * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark | html5doctor.com/html-5-reset-stylesheet/                     */

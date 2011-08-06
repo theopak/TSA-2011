@@ -31,7 +31,7 @@ if(function_exists('register_nav_menus')) {
 //admin interface branding
 add_filter( 'admin_footer_text', 'my_admin_footer_text' );
 function my_admin_footer_text( $default_text ) {
-	return '<span id="footer-thankyou">Website by <a href="http://theopak.com">Theo Pak</a> for <a href="http://hpregional.org">High Point Regional High School</a> Technology Student Association<span> | Powered by <a href="http://www.wordpress.org">WordPress</a> | All code <a href="https://github.com/theopak/TSA-2011">GNU</a>';
+	return '<span id="footer-thankyou">Website by <a href="http://theopak.com">Theo Pak</a> for <a href="http://hpregional.org">High Point Regional High School</a> Technology Student Association | Powered by <a href="http://www.wordpress.org">WordPress</a> | All code <a href="https://github.com/theopak/TSA-2011">Open Source</a><span>';
 }
 
 
