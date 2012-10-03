@@ -5,8 +5,7 @@
 /* TEAM */
 	Lead Developer: Theo Pak
 	Site: http://theopak.com
-	Twitter: theopak
-	Location: NJ, USA
+	Location: Troy, NY, USA
 
 	Writers: Mackenzie A, Diego C, Emily S
 
@@ -23,30 +22,5 @@
 /* SITE */
 	Standards: HTML5, CSS3, PHP, MySQL
 	Components: Modernizr, jQuery
-	Software: Google Analytics, Typekit, WordPress
+	Software: Google Analytics, WordPress
 	Source: https://github.com/theopak/TSA-2011
-
-
-                               -o/-                       
-                               +oo//-                     
-                              :ooo+//:                    
-                             -ooooo///-                   
-                             /oooooo//:                   
-                            :ooooooo+//-                  
-                           -+oooooooo///-                 
-           -://////////////+oooooooooo++////////////::    
-            :+ooooooooooooooooooooooooooooooooooooo+:::-  
-              -/+ooooooooooooooooooooooooooooooo+/::////:-
-                -:+oooooooooooooooooooooooooooo/::///////:-
-                  --/+ooooooooooooooooooooo+::://////:-   
-                     -:+ooooooooooooooooo+:://////:--     
-                       /ooooooooooooooooo+//////:-        
-                      -ooooooooooooooooooo////-           
-                      /ooooooooo+oooooooooo//:            
-                     :ooooooo+/::/+oooooooo+//-           
-                    -oooooo/::///////+oooooo///-          
-                    /ooo+::://////:---:/+oooo//:          
-                   -o+/::///////:-      -:/+o+//-         
-                   :-:///////:-            -:/://         
-                     -////:-                 --//:        
-                       --                       -:        

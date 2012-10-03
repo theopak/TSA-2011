@@ -25,12 +25,12 @@
 
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
-	<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/favicon.ico">
-	<link rel="apple-touch-icon" href="<?php bloginfo('stylesheet_directory'); ?>/apple-touch-icon.png">
+	<link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
+	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/apple-touch-icon.png">
 
 
-	<link rel="stylesheet" href="css/style.css?v=2">
-	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/libs/modernizr-2.0.6.min.js"></script>
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/min.css">
+	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/libs/modernizr-2.5.2.min.js"></script>
 
 	<?php wp_head(); ?>
 
@@ -56,7 +56,7 @@
 							id="s"
 							name="s"
 							value="Search..."
-							onclick="if(this.value=='Search...'){this.value='';this.style.color='#333'}" 
+							onclick="if(this.value=='Search...'){this.value='';this.style.color='#333'}"
 							onblur="if(this.value==''){this.value='Search...';this.style.color='#999';}">
 					</form>
 				</div>-->
